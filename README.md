@@ -179,6 +179,10 @@ Methods that optimize the trade-off between response quality and resource costs 
   Guannan Lai, Han-Jia Ye.  
   [![Paper](https://img.shields.io/badge/arXiv-2602.03478-b31b1b.svg)](https://arxiv.org/abs/2602.03478)
 
+- **An Empirical Study on Strong-Weak Model Collaboration for Repo-level Code Generation** (EMNLP 2025)  
+  Shubham Gandhi, Atharva Naik, Yiqing Xie, Carolyn Rose.  
+  [![Paper](https://img.shields.io/badge/arXiv-2505.20182-b31b1b.svg)](https://arxiv.org/abs/2505.20182) [![Code](https://img.shields.io/github/stars/shubhamrgandhi/codegen-strong-weak-collab.svg?style=social&label=Star)](https://github.com/shubhamrgandhi/codegen-strong-weak-collab)
+
 ---
 
 ### 🛡️ Reliability-oriented Routing

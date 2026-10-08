@@ -125,6 +125,10 @@ Methods that maximize task performance by selecting the model most likely to pro
   Wei Song, Zhenya Huang, Cheng Cheng, et al.  
   [![Paper](https://img.shields.io/badge/ACL_Anthology-2025-blue)](https://aclanthology.org/2025.acl-long.840)
 
+- **Pretrain Once, Route Anywhere: Towards a Foundation Model for LLM Routing** (Sep 2026)<br>
+  Guannan Lai, Han-Jia Ye.<br>
+  [![Paper](https://img.shields.io/badge/arXiv-2609.37362-b31b1b.svg)](https://arxiv.org/abs/2609.37362) [![Code](https://img.shields.io/github/stars/LAMDA-Model-Reuse/RouteFM.svg?style=social&label=Star)](https://github.com/LAMDA-Model-Reuse/RouteFM)
+
 ---
 
 ### 💰 Cost-aware Routing
@@ -179,6 +183,10 @@ Methods that optimize the trade-off between response quality and resource costs 
   Guannan Lai, Han-Jia Ye.  
   [![Paper](https://img.shields.io/badge/arXiv-2602.03478-b31b1b.svg)](https://arxiv.org/abs/2602.03478)
 
+- **Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing** (Sep 2026)<br>
+  Guannan Lai, Gelin Bian, Hao-Xuan Ma, et al.<br>
+  [![Paper](https://img.shields.io/badge/arXiv-2609.37402-b31b1b.svg)](https://arxiv.org/abs/2609.37402) [![Code](https://img.shields.io/github/stars/LAMDA-Model-Reuse/SaveRouter.svg?style=social&label=Star)](https://github.com/LAMDA-Model-Reuse/SaveRouter)
+
 ---
 
 ### 🛡️ Reliability-oriented Routing
@@ -204,6 +212,14 @@ Methods that prioritize failure avoidance — reducing hallucinations, unsafe ou
 - **RACER: Risk-Aware Calibrated Efficient Routing for Large Language Models** (2026)  
   Sai Hao, Hao Zeng, Hongxin Wei, Bingyi Jing.  
   [![Paper](https://img.shields.io/badge/arXiv-2603.06616-b31b1b.svg)](https://arxiv.org/abs/2603.06616)
+
+- **From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing** (EMNLP 2026)<br>
+  Guannan Lai, Haoran Hu, Long Chen, Zhenguo Li, Han-Jia Ye.<br>
+  [![Paper](https://img.shields.io/badge/arXiv-2606.06924-b31b1b.svg)](https://arxiv.org/abs/2606.06924) [![Code](https://img.shields.io/github/stars/AIGNLAI/DARS.svg?style=social&label=Star)](https://github.com/AIGNLAI/DARS)
+
+- **When LLM Routers Overpay: Strong-Model Over-Selection under Loose Budgets** (NeurIPS 2026)<br>
+  Guannan Lai, Long Chen, Han-Jia Ye.<br>
+  [![Paper](https://img.shields.io/badge/OpenReview-NeurIPS_2026-blue)](https://openreview.net/forum?id=v2DOrFK8Wp)
 
 ---
 
@@ -577,6 +593,13 @@ Routing policies updated through interaction — contextual bandits, reinforceme
 | **VL-RouterBench** | [![Paper](https://img.shields.io/badge/arXiv-2503.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX) | 30.5k | 17 | Multimodal (vision-language) routing |
 | **MMR-Bench** | [![Paper](https://img.shields.io/badge/arXiv-2601.17814-b31b1b.svg)](https://arxiv.org/abs/2601.17814) | 11k | 10 | Multimodal reasoning routing |
 | **Router-R1 Dataset** | [![Paper](https://img.shields.io/badge/OpenReview-NeurIPS_2025-blue)](https://openreview.net/forum?id=DWf4vroKWJ) | 49k | 4–8 | Multi-round reasoning routing |
+
+### Evaluation Platforms & Toolboxes
+
+| Resource | Paper | Type | Key Feature |
+|---|---|---|---|
+| **RouteJudge** | [![Paper](https://img.shields.io/badge/arXiv-2606.18774-b31b1b.svg)](https://arxiv.org/abs/2606.18774) | [Online platform](https://routejudge.cn/) | Anonymous pairwise, preference-aware router evaluation |
+| **ORBIT** | [![Paper](https://img.shields.io/badge/FCS-2026-blue)](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-026-61310-5) | [Toolbox](https://github.com/LAMDA-Model-Reuse/ORBIT) | Standardized routers, benchmarks, and budget-aware evaluation |
 
 ### Task Datasets Commonly Used for Routing Evaluation
 
